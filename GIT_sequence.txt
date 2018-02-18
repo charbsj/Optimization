@@ -1,0 +1,19 @@
+// initialize a new local repo
+git init
+// sync the remote server/repo to the local repo
+git remote add origin "url link"
+// Now we can pull content from server into local repo
+git pull origin master
+// Create code or files or save pictures in the workstation
+// you can check what is in the local folder
+dir
+// you can check what has been added to the index (to commit to local repo content needs to be in index)
+git status
+// Add ALL files to the index
+git add -A
+// Verify the files got added to the index
+git status
+// Commit the files in index into local repo
+git commit -a -m "enter a text to describe what is done for log purposes
+// Now push the files to remote repo
+git push origin master
